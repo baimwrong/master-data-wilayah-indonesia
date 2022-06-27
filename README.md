@@ -9,4 +9,4 @@ Terdiri dari data berikut ini :
 3. Master kecamatan
 4. Master Kelurahan
 
-Update data terakhir pada : 17 Agusuts 2020.
+Update data terakhir pada : 27 Juni 2022.

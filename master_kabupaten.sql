@@ -1,12 +1,25 @@
+-- phpMyAdmin SQL Dump
+-- version 5.1.3
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Jun 27, 2022 at 04:01 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.5
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
+
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `test`
+--
 
 -- --------------------------------------------------------
 
@@ -59,7 +72,7 @@ INSERT INTO `master_kabupaten` (`kode_kabupaten`, `kode_provinsi`, `nama_kabupat
 ('12.09', '12', 'KAB. ASAHAN'),
 ('12.10', '12', 'KAB. LABUHANBATU'),
 ('12.11', '12', 'KAB. DAIRI'),
-('12.12', '12', 'KAB. TOBA SAMOSIR'),
+('12.12', '12', 'KAB. TOBA'),
 ('12.13', '12', 'KAB. MANDAILING NATAL'),
 ('12.14', '12', 'KAB. NIAS SELATAN'),
 ('12.15', '12', 'KAB. PAKPAK BHARAT'),
@@ -470,7 +483,7 @@ INSERT INTO `master_kabupaten` (`kode_kabupaten`, `kode_provinsi`, `nama_kabupat
 ('75.04', '75', 'KAB. PAHUWATO'),
 ('75.05', '75', 'KAB. GORONTALO UTARA'),
 ('75.71', '75', 'KOTA GORONTALO'),
-('76.01', '76', 'KAB. MAMUJU UTARA'),
+('76.01', '76', 'KAB. PASANGKAYU'),
 ('76.02', '76', 'KAB. MAMUJU'),
 ('76.03', '76', 'KAB. MAMASA'),
 ('76.04', '76', 'KAB. POLEWALI MANDAR'),
@@ -478,7 +491,7 @@ INSERT INTO `master_kabupaten` (`kode_kabupaten`, `kode_provinsi`, `nama_kabupat
 ('76.06', '76', 'KAB. MAMUJU TENGAH'),
 ('81.01', '81', 'KAB. MALUKU TENGAH'),
 ('81.02', '81', 'KAB. MALUKU TENGGARA'),
-('81.03', '81', 'KAB. MALUKU TENGGARA BARAT'),
+('81.03', '81', 'KAB. KEPULAUAN TANIMBAR'),
 ('81.04', '81', 'KAB. BURU'),
 ('81.05', '81', 'KAB. SERAM BAGIAN TIMUR'),
 ('81.06', '81', 'KAB. SERAM BAGIAN BARAT'),
