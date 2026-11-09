@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.3
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 27, 2022 at 04:00 PM
--- Server version: 10.4.24-MariaDB
--- PHP Version: 8.1.5
+-- Generation Time: Nov 09, 2026 at 02:50 PM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.5.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -70,7 +70,11 @@ INSERT INTO `master_provinsi` (`kode_provinsi`, `nama_provinsi`) VALUES
 ('81', 'MALUKU'),
 ('82', 'MALUKU UTARA'),
 ('91', 'PAPUA'),
-('92', 'PAPUA BARAT');
+('92', 'PAPUA BARAT'),
+('93', 'PAPUA SELATAN'),
+('94', 'PAPUA TENGAH'),
+('95', 'PAPUA PEGUNUNGAN'),
+('96', 'PAPUA BARAT DAYA');
 
 --
 -- Indexes for dumped tables
